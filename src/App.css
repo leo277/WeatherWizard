@@ -124,3 +124,10 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
